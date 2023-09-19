@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<!-- <body>
+    <h1>The Dom</h1>
+
+    <button type="button" data-color="red">Click to Turn Red</button>
+
+
+
+
+</body>
+</html> -->
+
+
+<!-- Exercise 2 -->
+
+<!-- * MAIN CONTENT * -->
+<main class="container">
+    <h1>Pricing Calculator</h1>
+
+    <!-- PRICING FORM -->
+    <form class="pricing-form">
+      <!-- PRICE -->
+      <div>
+        <label for="price">Price</label>
+        <input type="number" name="price" id="price" value="50" min="1" />
+      </div>
+
+      <!-- QUANTITY -->
+      <div>
+        <label for="quantity"
+          >Quantity <span class="quantity-label">1</span
+        ></label>
+        <input
+          type="range"
+          name="quantity"
+          id="quantity"
+          value="1"
+          min="1"
+          max="25"
+          step="1"
+        />
+      </div>
+    </form>
+
+    <!-- DATA DISPLAY -->
+    <section class="data-display">
+      <p class="total-price">$0.00</p>
+    </section>
+  </main>
